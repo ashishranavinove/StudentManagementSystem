@@ -14,7 +14,7 @@ public class SignUpForm {
     private String username;
 
     @NotBlank
-    @Size(max = 60)
+    @Size(max = 50)
     @Email
     private String email;
     
